@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHELI SHARMA | Data Analyst & BI Specialist Portfolio</title>
+  <meta name="description" content="Portfolio of SHELI SHARMA — Aspiring Data Analyst, B.Com Accounting Graduate & Founder of Crunzy. Proficient in Power BI, SQL, Python, Tableau, and Advanced Excel.">
+  <meta name="keywords" content="Data Analyst, Power BI, DAX, Python, SQL, Tableau, Excel, Business Intelligence, SHELI SHARMA, Crunzy, Data Visualization">
+  <meta name="author" content="SHELI SHARMA">
+
+  <!-- OpenGraph / Social Sharing -->
+  <meta property="og:title" content="SHELI SHARMA | Data Analytics & BI Portfolio">
+  <meta property="og:description" content="Turning raw business data into actionable growth strategies. Explore interactive Power BI, Python, and SQL analytics projects.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="shaily.css">
+
+  <style>
+    .mockup-dot-red { background: #ef4444; }
+    .mockup-dot-amber { background: #f59e0b; }
+    .mockup-dot-green { background: #10b981; }
+    .mockup-stat-val-red { color: #f43f5e; }
+    .mockup-stat-val-blue { color: #38bdf8; }
+    .mockup-stat-val-green { color: #10b981; }
+    .mockup-stat-val-amber { color: #f59e0b; }
+    .section-subheading {
+      font-size: 1.25rem;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .section-subheading-icon {
+      color: var(--accent-indigo);
+    }
+    .lang-divider {
+      border-right: 1px solid var(--border-color);
+    }
+    /* Contact icon variants */
+    .contact-icon.linkedin-icon {
+      background: rgba(10, 102, 194, 0.15);
+      color: #0a66c2;
+    }
+    .contact-form-title {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+
+  <!-- Chart.js for Live Interactive Analytics Widget -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="bg-ambient-grid"></div>
+  <div class="bg-orb bg-orb-1"></div>
+  <div class="bg-orb bg-orb-2"></div>
+
+  
+       <!-- HEADER & NAVIGATION -->
+     
+  <header class="header">
+    <div class="container navbar">
+      <a href="#hero" class="logo">
+        <img src="Shaily.jpeg" alt="SHELI SHARMA" class="logo-avatar">
+        <span>SHELI SHARMA</span>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#credentials" class="nav-link">Credentials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle light/dark theme">
+          <!-- Populated dynamically via JS -->
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Open menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge badge-emerald">
+            <span class="pulse-dot"></span>
+            Available for Data Analyst & BI Roles
+          </div>
+          
+          <div class="hero-author-card">
+            <div class="hero-avatar-wrapper">
+              <img src="Shaily.jpeg" alt="SHELI SHARMA - Data Analyst" class="hero-avatar-img">
+              <div class="avatar-ring-pulse"></div>
+            </div>
+            <div class="hero-author-details">
+              <span class="hero-greeting">Hi there, I'm</span>
+              <h1 class="hero-author-name">SHELI <span class="gradient-text">SHARMA</span></h1>
+              <div class="hero-author-role">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                Aspiring Data Analyst | Power BI • SQL • Python • Excel • Tableau
+              </div>
+            </div>
+          </div>
+
+          <h2 class="hero-title-secondary">
+            Transforming Complex Data into <span class="gradient-text">Profitable Business Decisions</span>.
+          </h2>
+
+          <p class="hero-desc">
+            B.Com Accounting graduate and Founder of <em>Crunzy</em>. 
+            I bridge commercial acumen with technical analytics using 
+            <strong>Power BI, DAX, SQL, Python, Advanced Excel, & Tableau</strong> to uncover growth opportunities, optimize KPIs, and reduce operating costs.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+              View Analytics Projects
+            </a>
+            <a href="javascript:window.print()" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Print / Save CV
+            </a>
+            <a href="https://www.linkedin.com/in/sheli-sharma-214814343/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              LinkedIn
+            </a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">End-to-End Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">6+</span>
+              <span class="stat-label">BI & Analytics Tools</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">1</span>
+              <span class="stat-label">Startup Founded (Crunzy)</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">KPI Driven</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Interactive Data Widget -->
+        <div class="hero-widget-card">
+          <div class="widget-header">
+            <div class="widget-title-group">
+              <span class="widget-title">Interactive Analytics Explorer</span>
+              <span class="widget-subtitle">Live Campaign Data Model • Toggle Metrics</span>
+            </div>
+            <div class="widget-pill-tabs">
+              <button class="widget-pill active" data-metric="roas">ROAS</button>
+              <button class="widget-pill" data-metric="conversions">Conversions</button>
+              <button class="widget-pill" data-metric="efficiency">CPA & CPC</button>
+            </div>
+          </div>
+
+          <div class="chart-wrapper">
+            <canvas id="heroAnalyticsChart"></canvas>
+          </div>
+
+          <div class="widget-kpi-bar" id="widget-kpi-container">
+            <div class="mini-kpi">
+              <span class="mini-kpi-label">Avg ROAS</span>
+              <div class="mini-kpi-val">3.62x</div>
+              <span class="mini-kpi-trend trend-up">+18.4%</span>
+            </div>
+            <div class="mini-kpi">
+              <span class="mini-kpi-label">Total Revenue</span>
+              <div class="mini-kpi-val">$139.7K</div>
+              <span class="mini-kpi-trend trend-up">+24.1%</span>
+            </div>
+            <div class="mini-kpi">
+              <span class="mini-kpi-label">Total Spend</span>
+              <div class="mini-kpi-val">$39.4K</div>
+              <span class="mini-kpi-trend trend-up">-5.2%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT & VALUE PROPOSITION
+         ========================================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Value Proposition</span>
+          <h2 class="section-title">Where Financial Acumen Meets Modern Analytics</h2>
+          <p class="section-desc">
+            Raw datasets are only as good as the business decisions they provoke. My foundation in Accounting and hands-on founder experience gives me an intuitive grasp of the bottom line.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative">
+            <p class="about-lead">
+              "I don't just calculate numbers — I discover what drives revenue, reduces operational waste, and accelerates growth."
+            </p>
+            <p class="about-text">
+              As an aspiring Data Analyst graduating with a <strong>B.Com in Accounting</strong> from Banwari Lal Bhalotia College, I bring a unique dual advantage to analytics teams: rigorous financial numeracy combined with end-to-end technical mastery in <strong>Power BI, SQL, Python, Tableau, and DAX</strong>.
+            </p>
+            <p class="about-text">
+              As the Founder of <strong>Crunzy</strong>, I actively deployed data-driven decision-making in real-world retail operations — developing custom Excel KPI trackers, forecasting inventory reorders, analyzing sales trends, and negotiating vendor costs to preserve healthy operating margins.
+            </p>
+
+            <div class="story-badge-card">
+              <div class="story-badge-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                The Commercial Edge
+              </div>
+              <p class="story-badge-desc">
+                Understanding balance sheets, margins, and unit economics ensures that every visualization and metric I develop directly serves executive objectives and ROI.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-pillars-grid">
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+              </div>
+              <h3 class="pillar-title">Data Modeling & DAX</h3>
+              <p class="pillar-desc">
+                Constructing clean star schemas, relationship cardinality, calculated columns, and optimized DAX measures for real-time reporting.
+              </p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+              </div>
+              <h3 class="pillar-title">Exploratory Data Analysis</h3>
+              <p class="pillar-desc">
+                Cleaning unstructured datasets, identifying outliers, finding correlations, and generating statistical distributions in Python & Pandas.
+              </p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              </div>
+              <h3 class="pillar-title">Executive Dashboarding</h3>
+              <p class="pillar-desc">
+                Translating complex queries into intuitive Power BI and Tableau dashboards with dynamic slicers, drill-downs, and KPI cards.
+              </p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+              </div>
+              <h3 class="pillar-title">AI-Augmented Workflows</h3>
+              <p class="pillar-desc">
+                Certified in Google Cloud Generative AI Studio. Proficient in leveraging Copilot, ChatGPT, Claude, and Gemini to accelerate SQL queries and code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SKILLS MATRIX
+         ========================================================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Analytical Arsenal & Tooling</h2>
+          <p class="section-desc">
+            Hands-on technical capabilities across data extraction, transformation, statistical analysis, and interactive dashboard engineering.
+          </p>
+        </div>
+
+        <div class="skills-categories">
+          <!-- BI & Visualization -->
+          <div class="skill-cat-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon icon-bi">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <h3 class="skill-cat-title">BI & Dashboarding</h3>
+            </div>
+
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Power BI & DAX</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill progress-90"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">MS Excel (Advanced)</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill progress-92"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Tableau</span>
+                  <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill progress-80"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags-cloud">
+              <span class="tech-tag">Pivot Tables</span>
+              <span class="tech-tag">XLOOKUP</span>
+              <span class="tech-tag">Power Query</span>
+              <span class="tech-tag">KPI Cards</span>
+              <span class="tech-tag">Interactive Slicers</span>
+            </div>
+          </div>
+
+          <!-- Code & Databases -->
+          <div class="skill-cat-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon icon-code">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="skill-cat-title">Programming & Databases</h3>
+            </div>
+
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">SQL (PostgreSQL / MySQL)</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill progress-88"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill progress-82"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">AWS Database Basics</span>
+                  <span class="skill-level">Foundational</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill progress-70"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags-cloud">
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">NumPy</span>
+              <span class="tech-tag">Matplotlib</span>
+              <span class="tech-tag">Seaborn</span>
+              <span class="tech-tag">Git / GitHub</span>
+            </div>
+          </div>
+
+          <!-- AI & Modern Workflow -->
+          <div class="skill-cat-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon icon-ai">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z"></path><path d="M12 6v6l4 2"></path></svg>
+              </div>
+              <h3 class="skill-cat-title">AI & Productivity</h3>
+            </div>
+
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Generative AI Studio</span>
+                  <span class="skill-level">Certified</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill progress-90"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">AI Code Tools (Copilot/Gemini)</span>
+                  <span class="skill-level">Expert</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill progress-94"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Prompt Engineering</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill progress-86"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags-cloud">
+              <span class="tech-tag">ChatGPT</span>
+              <span class="tech-tag">Claude</span>
+              <span class="tech-tag">Google Gemini</span>
+              <span class="tech-tag">Codex</span>
+            </div>
+          </div>
+
+          <!-- Business Acumen & Operations -->
+          <div class="skill-cat-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon icon-biz">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+              </div>
+              <h3 class="skill-cat-title">Business & Operations</h3>
+            </div>
+
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">KPI & Profitability Tracking</span>
+                  <span class="skill-level">Founder Level</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill progress-95"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Inventory Planning</span>
+                  <span class="skill-level">Experienced</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill progress-88"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Accounting & Financials</span>
+                  <span class="skill-level">B.Com Degree</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill progress-90"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags-cloud">
+              <span class="tech-tag">Pricing Optimization</span>
+              <span class="tech-tag">Vendor Coordination</span>
+              <span class="tech-tag">Time Management</span>
+              <span class="tech-tag">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURED PROJECTS SHOWCASE
+         ========================================================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Case Studies</span>
+          <h2 class="section-title">Featured Analytics Projects</h2>
+          <p class="section-desc">
+            End-to-end data analytics solutions solving marketing efficiency, public safety insights, and entertainment streaming trends.
+          </p>
+        </div>
+
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="powerbi">Power BI & DAX</button>
+          <button class="filter-btn" data-filter="python">Python & EDA</button>
+          <button class="filter-btn" data-filter="business">Business & Excel</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: GoogleAds Performance -->
+          <div class="project-card" data-category="powerbi business">
+            <div class="project-banner">
+              <div class="project-banner-mockup">
+                <div class="mockup-top">
+                  <div class="mockup-dots">
+                    <span class="mockup-dot mockup-dot-red"></span>
+                    <span class="mockup-dot mockup-dot-amber"></span>
+                    <span class="mockup-dot mockup-dot-green"></span>
+                  </div>
+                  <span class="mockup-title">GoogleAds_Performance.pbix</span>
+                </div>
+                <div class="mockup-body">
+                  <div class="mockup-stat-box">
+                    <div class="mockup-stat-title">AVG CTR</div>
+                    <div class="mockup-stat-val mockup-stat-val-blue">4.82%</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="mockup-stat-title">AVG CPA</div>
+                    <div class="mockup-stat-val mockup-stat-val-green">$18.40</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="mockup-stat-title">ROAS</div>
+                    <div class="mockup-stat-val mockup-stat-val-amber">3.85x</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-header">
+                <span class="project-category-badge">Power BI • DAX • Advanced Excel</span>
+                <h3 class="project-title">GoogleAds Performance Analysis & Interactive Dashboard</h3>
+              </div>
+
+              <p class="project-desc">
+                Analyzed campaign-level digital advertising data across spend, clicks, conversions, CTR, CPC, CPA, and revenue attribution to uncover budget waste and optimize ROAS.
+              </p>
+
+              <ul class="project-highlights">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Engineered custom DAX measures for CTR, CPA, ROAS, and dynamic campaign tiering.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Built interactive Power BI views with KPI cards, campaign comparisons, and geographic drill-down.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Delivered actionable recommendations to reallocate 30% of budget toward top-performing segments.</span>
+                </li>
+              </ul>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">DAX</span>
+                <span class="tech-tag">Advanced Excel</span>
+                <span class="tech-tag">Data Modeling</span>
+                <span class="tech-tag">Marketing ROI</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="btn btn-secondary btn-sm open-case-study" data-project="googleads">
+                  View Full Case Study & DAX
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Crime & Theft Analysis -->
+          <div class="project-card" data-category="powerbi">
+            <div class="project-banner">
+              <div class="project-banner-mockup">
+                <div class="mockup-top">
+                  <div class="mockup-dots">
+                    <span class="mockup-dot mockup-dot-red"></span>
+                    <span class="mockup-dot mockup-dot-amber"></span>
+                    <span class="mockup-dot mockup-dot-green"></span>
+                  </div>
+                  <span class="mockup-title">Crime Analytics Geospatial</span>
+                </div>
+                <div class="mockup-body">
+                  <div class="mockup-stat-box">
+                    <div class="mockup-stat-title">INCIDENTS</div>
+                    <div class="mockup-stat-val mockup-stat-val-red">14,892</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="mockup-stat-title">HOTSPOT</div>
+                    <div class="mockup-stat-val mockup-stat-val-blue">Zone 4</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="mockup-stat-title">PEAK TIME</div>
+                    <div class="mockup-stat-val mockup-stat-val-amber">11PM - 3AM</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-header">
+                <span class="project-category-badge">Power BI • Geospatial • Spatial Intelligence</span>
+                <h3 class="project-title">Crime & Vehicle Theft Analysis Dashboard</h3>
+              </div>
+
+              <p class="project-desc">
+                Constructed an interactive operational intelligence dashboard examining vehicle theft occurrences across regional territories, temporal patterns, and vehicle make/model classifications.
+              </p>
+
+              <ul class="project-highlights">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Designed synchronized choropleth maps, temporal heatmaps, and vehicle vulnerability charts.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Implemented dynamic slicers for Region, Date ranges, and Vehicle Categories for granular inspection.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Isolated high-risk midnight incident clusters to aid preventive patrol scheduling.</span>
+                </li>
+              </ul>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">Spatial Mapping</span>
+                <span class="tech-tag">Time-Series</span>
+                <span class="tech-tag">Data Cleaning</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="btn btn-secondary btn-sm open-case-study" data-project="crime">
+                  View Full Case Study & Insights
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Netflix Data Analysis -->
+          <div class="project-card" data-category="python">
+            <div class="project-banner">
+              <div class="project-banner-mockup">
+                <div class="mockup-top">
+                  <div class="mockup-dots">
+                    <span class="mockup-dot mockup-dot-red"></span>
+                    <span class="mockup-dot mockup-dot-amber"></span>
+                    <span class="mockup-dot mockup-dot-green"></span>
+                  </div>
+                  <span class="mockup-title">netflix_eda_pipeline.py</span>
+                </div>
+                <div class="mockup-body">
+                  <div class="mockup-stat-box">
+                    <div class="mockup-stat-title">TITLES</div>
+                    <div class="mockup-stat-val mockup-stat-val-red">8,807</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="mockup-stat-title">COUNTRIES</div>
+                    <div class="mockup-stat-val mockup-stat-val-blue">86</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="mockup-stat-title">TV SURGE</div>
+                    <div class="mockup-stat-val mockup-stat-val-green">+210%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-header">
+                <span class="project-category-badge">Python • Pandas • Matplotlib • NumPy</span>
+                <h3 class="project-title">Netflix Global Streaming Catalog & Trends EDA</h3>
+              </div>
+
+              <p class="project-desc">
+                Comprehensive data exploration uncovering catalog evolution, shifting ratios between movies and TV shows, genre saturation, and global content production over the last 15 years.
+              </p>
+
+              <ul class="project-highlights">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Handled missing values, date parsing, and genre multi-label splitting with Pandas.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Built publication timelines and distribution charts with Matplotlib & Seaborn.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Uncovered structural pivoting toward serialized episodic content to boost subscriber retention.</span>
+                </li>
+              </ul>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Seaborn</span>
+                <span class="tech-tag">EDA</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="btn btn-secondary btn-sm open-case-study" data-project="netflix">
+                  View Python Script & Analysis
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         WORK EXPERIENCE & ENTREPRENEURSHIP
+         ========================================================================== -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Hands-on Experience</span>
+          <h2 class="section-title">Entrepreneurship & Business Analytics</h2>
+          <p class="section-desc">
+            Direct operational experience applying data analytics to drive commercial decisions, streamline inventory, and preserve profitability.
+          </p>
+        </div>
+
+        <div class="experience-timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content-card">
+              <div class="timeline-header">
+                
+                <div>
+                  <h3 class="timeline-role">Managing Director @ CRUNZY</h3>
+                  <div class="timeline-company">
+                    <a href="https://www.crunzy.in/" target="_blank" rel="noopener noreferrer"> Crunzy </a>
+                  </div>
+                </div>
+                <span class="timeline-period">01/2025 — Present</span>
+              </div>
+
+              <p class="project-desc">
+                as a managing director of Crunzy, I spearheaded the end-to-end operations of a retail venture, leveraging data analytics to optimize pricing, inventory, and vendor relations. My role encompassed financial oversight, KPI tracking, and strategic decision-making to ensure sustainable growth and profitability.
+              </p>
+
+              <ul class="timeline-bullet-list">
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Pricing & Margin Optimization:</strong> Structured dynamic pricing models factoring in unit costs, competitor benchmarks, and supplier fluctuations to safeguard gross margins.</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Custom KPI & Financial Reporting:</strong> Designed Excel-based management dashboards tracking day-over-day sales velocity, product-level profitability, and cash flow.</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Inventory Forecasting & Vendor Coordination:</strong> Analyzed historical order cycles and stock turnaround times to prevent stockouts and minimize carrying costs.</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Operational Decision-Making:</strong> Leveraged quantitative insights to guide sourcing agreements and prioritize highest-yield product lines.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CREDENTIALS & EDUCATION
+         ========================================================================== -->
+    <section id="credentials" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Continuous Learning</span>
+          <h2 class="section-title">Certifications & Education</h2>
+          <p class="section-desc">
+            Industry credentials certified by Google Cloud, Microsoft, and leading academic institutions.
+          </p>
+        </div>
+
+        <div class="credentials-grid">
+          <!-- Certifications Column -->
+          <div>
+            <h3 class="section-subheading">
+              <svg class="section-subheading-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              Verified Industry Certifications
+            </h3>
+
+            <!-- Cert 1: GenAI Studio -->
+            <div class="cert-card">
+              <div class="cert-info">
+                <span class="cert-name">Introduction to Generative AI Studio</span>
+                <span class="cert-issuer">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                  Simplilearn SkillUp — Powered by Google Cloud
+                </span>
+                <span class="cert-code">ID: 10627184 • August 2026</span>
+              </div>
+              <span class="badge badge-emerald">Verified</span>
+            </div>
+
+            <!-- Cert 2: Data Analyst 101 -->
+            <div class="cert-card">
+              <div class="cert-info">
+                <span class="cert-name">Data Analyst 101</span>
+                <span class="cert-issuer">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                  Simplilearn SkillUp — Powered by Microsoft
+                </span>
+                <span class="cert-code">ID: 10627385 • August 2026</span>
+              </div>
+              <span class="badge badge-emerald">Verified</span>
+            </div>
+
+            <!-- Cert 3: Intro to SQL -->
+            <div class="cert-card">
+              <div class="cert-info">
+                <span class="cert-name">Introduction to SQL</span>
+                <span class="cert-issuer">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                  Simplilearn SkillUp
+                </span>
+                <span class="cert-code">ID: 10226838 • May 2026</span>
+              </div>
+              <span class="badge badge-emerald">Verified</span>
+            </div>
+          </div>
+
+          <!-- Education & Languages Column -->
+          <div>
+            <h3 class="section-subheading">
+              <svg class="section-subheading-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              Academic Background
+            </h3>
+
+            <!-- Higher Ed -->
+            <div class="edu-card">
+              <div class="edu-header">
+                <span class="edu-degree">Bachelor of Commerce: Accounting</span>
+                <span class="edu-year">07/2025</span>
+              </div>
+              <div class="edu-institution">Banwari Lal Bhalotia College • Asansol</div>
+              <span class="edu-gpa-badge">GPA: 62%</span>
+            </div>
+
+            <!-- School -->
+            <div class="edu-card">
+              <div class="edu-header">
+                <span class="edu-degree">Higher Secondary: Commerce</span>
+                <span class="edu-year">06/2022</span>
+              </div>
+              <div class="edu-institution">Arya Kanya Uchcha Vidyalaya • Asansol</div>
+              <span class="edu-gpa-badge">GPA: 68%</span>
+            </div>
+
+            <!-- Languages -->
+            <div class="lang-box">
+              <div>
+                <div class="lang-item-title">English</div>
+                <div class="lang-item-level"> Intermediate </div>
+              </div>
+              <div class="lang-divider"></div>
+              <div>
+                <div class="lang-item-title">Hindi</div>
+                <div class="lang-item-level">Native Proficiency</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT & GET IN TOUCH
+         ========================================================================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-desc">
+            Open for Data Analyst, Business Intelligence, and Reporting roles. Feel free to reach out directly or schedule a conversation!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Info Details -->
+          <div class="contact-info-panel">
+            <!-- Email -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <div class="contact-label">Email Address</div>
+                  <a href="mailto:shailyshaxxxxxxxx@gamil.com" class="contact-val">shailyshaxxxxxxxx@gamil.com</a>
+                </div>
+              </div>
+              <button class="copy-btn copy-trigger" data-copy="shailyshaxxxxxxxx@gamil.com" aria-label="Copy email">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                Copy
+              </button>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <div class="contact-label">Phone & WhatsApp</div>
+                  <a href="tel:+91988xxxxxxx" class="contact-val">+91 988xxxxxxx</a>
+                </div>
+              </div>
+              <button class="copy-btn copy-trigger" data-copy="+91 988xxxxxxx" aria-label="Copy phone">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                Copy
+              </button>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <div class="contact-label">Current Location</div>
+                  <div class="contact-val">Asansol, West Bengal, India</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LinkedIn Profile -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-icon linkedin-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div>
+                  <div class="contact-label">Professional Network</div>
+                  <a href="https://www.linkedin.com/in/sheli-sharma-6a0105312" target="_blank" rel="noopener noreferrer" class="contact-val">
+                    linkedin.com/in/sheli-sharma
+                  </a>
+                </div>
+              </div>
+              <a href="https://www.linkedin.com/in/sheli-sharma-214814343" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                Connect
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form class="contact-form-card" id="contact-form">
+            <h3 class="contact-form-title">Send a Message</h3>
+            
+            <div class="form-group">
+              <label class="form-label" for="contact-name">Your Full Name</label>
+              <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. John Doe / Hiring Manager" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-email">Email Address</label>
+              <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. john@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-msg">Message / Opportunity Details</label>
+              <textarea id="contact-msg" name="message" class="form-textarea" placeholder="Hello Sheli, we were impressed by your analytics portfolio and would love to discuss a Data Analyst opportunity..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-text">
+        &copy; 2026 <strong>SHELI SHARMA</strong> • Data Analyst & Business Intelligence Specialist. Built with modern web standards.
+      </div>
+      <div class="footer-links">
+        <a href="#hero" class="footer-link">Back to Top</a>
+        <a href="https://www.linkedin.com/in/sheli-sharma-214814343" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+        <a href="mailto:shailyshaxxxxxxxx@gamil.com" class="footer-link">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL: CASE STUDY DEEP DIVE
+       ========================================================================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="modal-header">
+        <span id="modal-project-category" class="project-category-badge">Category</span>
+        <h2 id="modal-project-title" class="section-title modal-project-title">Project Title</h2>
+      </div>
+
+      <div>
+        <h4 class="modal-section-title">Executive Overview</h4>
+        <p id="modal-project-summary" class="modal-section-text"></p>
+      </div>
+
+      <div class="modal-grid">
+        <div class="modal-card">
+          <h4 class="modal-card-title modal-title-rose">Business Challenge</h4>
+          <p id="modal-project-challenge" class="modal-card-text"></p>
+        </div>
+        <div class="modal-card">
+          <h4 class="modal-card-title modal-title-emerald">Technical Solution</h4>
+          <p id="modal-project-solution" class="modal-card-text"></p>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="modal-section-title">Calculations / Code Architecture</h4>
+        <pre class="modal-code-block"><code id="modal-project-code"></code></pre>
+      </div>
+
+      <div>
+        <h4 class="modal-section-title modal-section-title-lg">Key Analytical Takeaways & Impact</h4>
+        <ul id="modal-project-insights" class="project-highlights"></ul>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .modal-section-title {
+      font-size: 0.95rem;
+      color: var(--accent-blue);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.4rem;
+    }
+    .modal-section-title-lg {
+      margin-bottom: 0.5rem;
+    }
+    .modal-section-text {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+    .modal-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+    .modal-card {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border-color);
+      padding: 1rem;
+      border-radius: var(--radius-sm);
+    }
+    .skill-progress-fill {
+      width: 0;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #38bdf8 0%, #8b5cf6 100%);
+      box-shadow: 0 0 18px rgba(56, 189, 248, 0.35);
+    }
+
+    .progress-70 { width: 70%; }
+    .progress-80 { width: 80%; }
+    .progress-82 { width: 82%; }
+    .progress-86 { width: 86%; }
+    .progress-88 { width: 88%; }
+    .progress-90 { width: 90%; }
+    .progress-92 { width: 92%; }
+    .progress-94 { width: 94%; }
+    .progress-95 { width: 95%; }
+  </style>
+
+  <!-- Custom Logic Script -->
+  <script src="shaily.js"></script>
+</body>
+</html>
+
